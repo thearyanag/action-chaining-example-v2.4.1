@@ -19,7 +19,7 @@ export const getCompletedAction = (type: string): NextActionLink => {
     type: "inline",
     action: {
       description: `Action ${type} completed`,
-      icon: `https://action-chaining-example.vercel.app/${type}.webp`,
+      icon: `https://action-chaining-example-v2-4-1.vercel.app/${type}.webp`,
       label: `Action ${type} Label`,
       title: `Action ${type} completed`,
       type: "completed",

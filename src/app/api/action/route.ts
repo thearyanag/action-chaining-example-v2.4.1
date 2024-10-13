@@ -14,7 +14,7 @@ import {
 export async function GET() {
   const response: ActionGetResponse = {
     type: "action",
-    icon: `https://action-chaining-example.vercel.app/a.webp`,
+    icon: `https://action-chaining-example-v2-4-1.vercel.app/a.webp`,
     title: "Action A",
     description: "Enter anything",
     label: "Action A Label",
@@ -62,7 +62,7 @@ export async function POST(req: NextRequest) {
           type: "inline",
           action: {
             description: `Action B completed`,
-            icon: `https://action-chaining-example.vercel.app/b.webp`,
+            icon: `https://action-chaining-example-v2-4-1.vercel.app/b.webp`,
             label: `Action B Label`,
             title: `Action B completed`,
             type: "action",
